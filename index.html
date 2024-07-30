@@ -37,7 +37,22 @@
         }
         nav a:hover {
             background: #000000;
+
         }
+
+        .h2 button {
+            background: none;
+            border: none;
+            color: #ffffff;
+            text-decoration: underline;
+            cursor: pointer;
+            padding: 0;
+        }
+        
+        .h2 button:hover {
+            text-decoration: none;
+        }
+
         .hero {
             background: linear-gradient(rgba(8, 8, 90, 0.623),rgba(3, 12, 65, 0.705)), url('./images/it-bglight.jpg') no-repeat;
             height: 800px;
@@ -118,11 +133,24 @@
             margin-top: 18%;
             font-family: "Outfit", sans-serif;
         }
+
+        .btn-2 {
+            background: #021842;
+            color: white;
+            padding: 10px 20px;
+            border: #ffffff;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            border-radius: 70px;
+            font-family: "Outfit", sans-serif;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>IT Solutions</h1>
+        <h2><button class="btn-2" onclick="window.location.href='https://khayni.co.za/';">Home</button></h2>
     </header>
     <div class="hero">
         <h1> Services: </h1>
